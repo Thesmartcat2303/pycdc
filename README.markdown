@@ -16,7 +16,7 @@ https://github.com/zrax/pycdc
 ## Building Decompyle++
 
 ```bash
-git clone https://github.com/KhanhNguyen9872/pycdc
+git clone https://github.com/Thesmartcat2303/pycdc
 cd pycdc
 mkdir build
 cd build
