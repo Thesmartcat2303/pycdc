@@ -12,7 +12,7 @@ jobs:
           sudo apt install -y mingw-w64
 
       - name: Clone pycdc
-        run: git clone --depth=1 https://github.com/zrax/pycdc
+        run: git clone --depth=1 https://github.com/Thesmartcat2303/pycdc
 
       - name: Compile
         run: >
