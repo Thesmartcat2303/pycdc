@@ -1,4 +1,4 @@
-# Decompyle++ 
+# PYTHON COMPILE DECOMPILER
 ***A Python Byte-code Disassembler/Decompiler***
 
 Decompyle++ aims to translate compiled Python byte-code back into valid
@@ -17,11 +17,18 @@ https://github.com/zrax/pycdc
 
 ```bash
 git clone https://github.com/Thesmartcat2303/pycdc
+apt install cmake
+apt install clang
+apt install make
+apt install git
 cd pycdc
-mkdir build
-cd build
-cmake ..
-make j$(nproc)
+ls
+chmod 777 pycdc.cpp
+chmod 777 pycdas.cpp
+cmake .
+make
+mv pycdc $PREFIX/bin
+mv pycdas $PREFIX/bin
 ```
 
 * Generate a project or makefile with [CMake](http://www.cmake.org) (See CMake's documentation for details)
