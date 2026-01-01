@@ -48,7 +48,7 @@ jobs:
       - name: Create release Windows
         uses: ncipollo/release-action@v1
         with:
-          name: Decompyle++ ${{ env.RELEASE_DATE }}
+          name: PYCDC ${{ env.RELEASE_DATE }}
           tag: build-${{ env.RELEASE_DATE }}-${{ env.RELEASE_COMMIT }}
           body: Compiled on ${{ env.RELEASE_DATE }} at ${{ env.RELEASE_TIME }} GMT, pycdc commit ${{ env.RELEASE_COMMIT }}
           artifacts: "pycdc/pycdc.exe,pycdc/pycdas.exe"
@@ -80,7 +80,7 @@ jobs:
       - name: Create release Linux x86_64
         uses: ncipollo/release-action@v1
         with:
-          name: Decompyle++ ${{ env.RELEASE_DATE }}
+          name: PYCDC ${{ env.RELEASE_DATE }}
           tag: build-${{ env.RELEASE_DATE }}-${{ env.RELEASE_COMMIT }}
           body: Compiled on ${{ env.RELEASE_DATE }} at ${{ env.RELEASE_TIME }} GMT, pycdc commit ${{ env.RELEASE_COMMIT }}
           artifacts: "pycdc/pycdc.x86_64,pycdc/pycdas.x86_64"
@@ -112,7 +112,7 @@ jobs:
       - name: Create release Linux aarch64
         uses: ncipollo/release-action@v1
         with:
-          name: Decompyle++ ${{ env.RELEASE_DATE }}
+          name: PYCDC ${{ env.RELEASE_DATE }}
           tag: build-${{ env.RELEASE_DATE }}-${{ env.RELEASE_COMMIT }}
           body: Compiled on ${{ env.RELEASE_DATE }} at ${{ env.RELEASE_TIME }} GMT, pycdc commit ${{ env.RELEASE_COMMIT }}
           artifacts: "pycdc/pycdc.aarch64,pycdc/pycdas.aarch64"
