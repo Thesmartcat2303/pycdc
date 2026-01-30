@@ -68,10 +68,17 @@ sudo apt install build-essential cmake git python3-dev
 ### **Build**
 
 ```bash
-git clone https://github.com/zrsx/pycdc.git
+git clone https://github.com/Thesmartcat2303/pycdc
+apt install cmake
+apt install clang
+apt install make
 cd pycdc
+chmod 777 pycdc.cpp
+chmod 777 pycdas.cpp
 cmake .
 make
+mv pycdc $PREFIX/bin
+mv pycdas $PREFIX/bin
 ```
 
 Optional: Run the test suite
