@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
         try {
             mod.loadFromFile(infile);
         } catch (std::exception& ex) {
-            fprintf(stderr, "Error loading file %s: %s\n", infile, ex.what());
+            fprintf(stderr, "Deo load duoc file %s: %s\n", infile, ex.what());
             return 1;
         }
     } else {
@@ -84,19 +84,19 @@ int main(int argc, char* argv[])
     }
 
     if (!mod.isValid()) {
-        fprintf(stderr, "Could not load file %s\n", infile);
+        fprintf(stderr, "Deo load duoc file file %s\n", infile);
         return 1;
     }
     const char* dispname = strrchr(infile, PATHSEP);
     dispname = (dispname == NULL) ? infile : dispname + 1;
-    *pyc_output << "# Deobf by Thesmartcat2303\n";
-    formatted_print(*pyc_output, "# File: %s (Python %d.%d%s)\n\n", dispname,
+    *pyc_output << "# Deobf by Thesmartcat2303 with Custom PYCDC\n";
+    formatted_print(*pyc_output, "# File name: %s (Py %d.%d%s)\n\n", dispname,
                     mod.majorVer(), mod.minorVer(),
                     (mod.majorVer() < 3 && mod.isUnicode()) ? " Unicode" : "");
     try {
         decompyle(mod.code(), &mod, *pyc_output);
     } catch (std::exception& ex) {
-        fprintf(stderr, "Error decompyling %s: %s\n", infile, ex.what());
+        fprintf(stderr, "Loi decode %s: %s\n", infile, ex.what());
         return 1;
     }
 
