@@ -1,32 +1,32 @@
-# **Decompyle++ (pycdc) — zrsx Fork**
+# **PYCDC custom (pycdc) — Thesmartcat2303 TheSmartCat**
 
 *A blazing-fast Python bytecode decompiler & disassembler for Python 2.0–3.14*
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
-[![License](https://img.shields.io/github/license/zrsx/pycdc)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![License](https://img.shields.io/github/license/Thesmartcat2303/pycdc)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![Python Versions](https://img.shields.io/badge/python-2.0--3.14-blue)](#)
-[![GitHub Stars](https://img.shields.io/github/stars/zrsx/pycdc?style=social)](https://github.com/zrsx/pycdc/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/zrsx/pycdc?style=social)](https://github.com/zrsx/pycdc/network)
-[![MSVC-CI](https://github.com/zrsx/pycdc/actions/workflows/msvc-ci.yml/badge.svg)](https://github.com/zrsx/pycdc/actions/workflows/msvc-ci.yml)
-[![Linux-CI](https://github.com/zrsx/pycdc/actions/workflows/linux-ci.yml/badge.svg)](https://github.com/zrsx/pycdc/actions/workflows/linux-ci.yml)
-[![Build Status](https://dev.azure.com/MichaelixNe/Neuro/_apis/build/status%2Fzrsx.pycdc?branchName=__main__)](https://dev.azure.com/MichaelixNe/Neuro/_build/latest?definitionId=1&branchName=__main__)
+[![GitHub Stars](https://img.shields.io/github/stars/Thesmartcat2303/pycdc?style=social)](https://github.com/Thesmartcat2303/pycdc/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Thesmartcat2303/pycdc?style=social)](https://github.com/Thesmartcat2303/pycdc/network)
+[![MSVC-CI](https://github.com/Thesmartcat2303/pycdc/actions/workflows/msvc-ci.yml/badge.svg)](https://github.com/Thesmartcat2303/pycdc/actions/workflows/msvc-ci.yml)
+[![Linux-CI](https://github.com/Thesmartcat2303/pycdc/actions/workflows/linux-ci.yml/badge.svg)](https://github.com/Thesmartcat2303/pycdc/actions/workflows/linux-ci.yml)
+[![Build Status](https://dev.azure.com/MichaelixNe/Neuro/_apis/build/status%2FThesmartcat2303.pycdc?branchName=__main__)](https://dev.azure.com/MichaelixNe/Neuro/_build/latest?definitionId=1&branchName=__main__)
 [![CircleCI Build](https://dl.circleci.com/status-badge/img/circleci/BcpbSeUMcJTaQLHYBBWuxG/UdZ4oBjzxJEuVwKKgSVwf4/tree/__main__.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/circleci/BcpbSeUMcJTaQLHYBBWuxG/UdZ4oBjzxJEuVwKKgSVwf4/tree/__main__)
 
 
 
 **Issues:**
-[![Open Issues](https://img.shields.io/github/issues/zrsx/pycdc)](https://github.com/zrsx/pycdc/issues)
-[![Closed Issues](https://img.shields.io/github/issues-closed/zrsx/pycdc)](https://github.com/zrsx/pycdc/issues?q=is%3Aissue+is%3Aclosed)
+[![Open Issues](https://img.shields.io/github/issues/Thesmartcat2303/pycdc)](https://github.com/Thesmartcat2303/pycdc/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/Thesmartcat2303/pycdc)](https://github.com/Thesmartcat2303/pycdc/issues?q=is%3Aissue+is%3Aclosed)
 
 **Pull Requests:**
-[![Open PRs](https://img.shields.io/github/issues-pr/zrsx/pycdc)](https://github.com/zrsx/pycdc/pulls)
-[![Closed PRs](https://img.shields.io/github/issues-pr-closed/zrsx/pycdc)](https://github.com/zrsx/pycdc/pulls?q=is%3Apr+is%3Aclosed)
+[![Open PRs](https://img.shields.io/github/issues-pr/Thesmartcat2303/pycdc)](https://github.com/Thesmartcat2303/pycdc/pulls)
+[![Closed PRs](https://img.shields.io/github/issues-pr-closed/Thesmartcat2303/pycdc)](https://github.com/Thesmartcat2303/pycdc/pulls?q=is%3Apr+is%3Aclosed)
 
 ---
 
 ## **Overview**
 
-**Decompyle++** is a fast, cross-version Python bytecode **decompiler** and **disassembler** written in C++. This fork by [**zrsx**](https://github.com/zrsx) extends the original [`pycdc`](https://github.com/zrax/pycdc) to support:
+**PYCDC** is a fast, cross-version Python bytecode **decompiler** and **disassembler** written in C++. This fork by [**Thesmartcat2303**](https://github.com/Thesmartcat2303) extends the original [`pycdc`](https://github.com/zrax/pycdc) to support:
 
 * Python **2.0** through **3.14**
 * Newer opcode formats and edge cases
@@ -136,9 +136,9 @@ Prebuilt `.zip` files for Windows, Linux, and macOS are automatically generated 
 
 | Platform     | Executable Zip                                                                 | Notes           |
 |--------------|----------------------------------------------------------------------------------|-----------------|
-| 🪟 Windows   | [Download](https://github.com/zrsx/pycdc/actions/workflows/msvc-ci.yml)        | Built via MSVC  |
-| 🐧 Linux     | [Download](https://github.com/zrsx/pycdc/actions/workflows/linux-ci.yml)       | Built via GCC   |
-| 🍎 macOS     | [Download](https://github.com/zrsx/pycdc/actions/workflows/macos-ci.yml)       | Built via Clang |
+| 🪟 Windows   | [Download](https://github.com/Thesmartcat2303/pycdc/actions/workflows/msvc-ci.yml)        | Built via MSVC  |
+| 🐧 Linux     | [Download](https://github.com/Thesmartcat2303/pycdc/actions/workflows/linux-ci.yml)       | Built via GCC   |
+| 🍎 macOS     | [Download](https://github.com/Thesmartcat2303/pycdc/actions/workflows/macos-ci.yml)       | Built via Clang |
 
 > 🔧 Visit the relevant workflow, click on the latest successful run, and scroll down to the **Artifacts** section to download.
 
@@ -153,7 +153,7 @@ Help us improve! If you find:
 * Unsupported opcodes (e.g., `UNSUPPORTED_OPCODE 218`)
 
 Please open an issue at:
-[https://github.com/zrsx/pycdc/issues](https://github.com/zrsx/pycdc/issues)
+[https://github.com/Thesmartcat2303/pycdc/issues](https://github.com/Thesmartcat2303/pycdc/issues)
 
 Include:
 
@@ -174,7 +174,7 @@ Distributed under the terms of the
 
 ## **Credits**
 
-* **Fork Maintainer**: [zrsx](https://github.com/zrsx)
+* **Fork Maintainer**: [Thesmartcat2303](https://github.com/Thesmartcat2303)
 * **Original Authors**: Michael Hansen, Darryl Pogue
 * **Notable Contributors**:
   charlietang98 • Kunal Parmar • Olivier Iffrig • Zlodiy • George
