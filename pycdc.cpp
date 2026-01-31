@@ -89,8 +89,8 @@ int main(int argc, char* argv[])
     }
     const char* dispname = strrchr(infile, PATHSEP);
     dispname = (dispname == NULL) ? infile : dispname + 1;
-    *pyc_output << "# Deobf by Thesmartcat2303 with Custom PYCDC\n";
-    formatted_print(*pyc_output, "# File name: %s (Py %d.%d%s)\n\n", dispname,
+    *pyc_output << "# Deobf by Thesmartcat2303 (PYCDC custom)\n";
+    formatted_print(*pyc_output, "# File name: %s Py %d.%d%s\n\n", dispname,
                     mod.majorVer(), mod.minorVer(),
                     (mod.majorVer() < 3 && mod.isUnicode()) ? " Unicode" : "");
     try {
